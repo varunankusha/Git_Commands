@@ -1,0 +1,104 @@
+
+
+1. **git init**: Initialize a new Git repository in the current directory.
+   ```bash
+   git init
+   ```
+
+2. **git clone [repository_url]**: Clone a repository from a remote URL to your local machine.
+   ```bash
+   git clone https://github.com/example/repository.git
+   ```
+
+3. **git add [file(s)]**: Stage file(s) for the next commit.
+   ```bash
+   git add myfile.txt
+   ```
+
+4. **git commit -m "[commit_message]"**: Commit staged changes with a descriptive message.
+   ```bash
+   git commit -m "Add initial version of myfile.txt"
+   ```
+
+5. **git status**: Check the status of your working directory and staging area.
+   ```bash
+   git status
+   ```
+
+6. **git push**: Push committed changes to a remote repository.
+   ```bash
+   git push origin main
+   ```
+
+7. **git pull**: Fetch changes from the remote repository and merge them into your local branch.
+   ```bash
+   git pull origin main
+   ```
+
+8. **git branch**: List all local branches.
+   ```bash
+   git branch
+   ```
+
+9. **git checkout [branch_name]**: Switch to a different branch.
+   ```bash
+   git checkout my-feature-branch
+   ```
+
+10. **git merge [branch_name]**: Merge changes from another branch into the current branch.
+    ```bash
+    git merge feature-branch
+    ```
+
+11. **git log**: View commit history.
+    ```bash
+    git log
+    ```
+
+12. **git diff [file]**: Show changes between the working directory and the staging area or between commits.
+    ```bash
+    git diff myfile.txt
+    ```
+
+13. **git remote -v**: View the remote repositories associated with your local repository.
+    ```bash
+    git remote -v
+    ```
+
+14. **git fetch [remote_name]**: Fetch changes from a remote repository without merging them.
+    ```bash
+    git fetch origin
+    ```
+
+15. **git reset [file(s)]**: Unstage file(s) from the staging area.
+    ```bash
+    git reset myfile.txt
+    ```
+
+16. **git stash**: Temporarily stash changes that are not ready to be committed.
+    ```bash
+    git stash
+    ```
+
+17. **git tag [tag_name]**: Create a new tag for the current commit.
+    ```bash
+    git tag v1.0
+    ```
+
+18. **git rm [file(s)]**: Remove file(s) from both the working directory and the staging area.
+    ```bash
+    git rm myfile.txt
+    ```
+
+19. **git mv [old_file] [new_file]**: Rename or move a file and stage the changes.
+    ```bash
+    git mv oldfile.txt newfile.txt
+    ```
+
+20. **git config**: Configure Git settings, such as username, email, etc.
+    ```bash
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    ```
+
+These examples demonstrate how to use various Git commands in typical scenarios.
